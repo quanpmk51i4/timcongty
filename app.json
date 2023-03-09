@@ -14,7 +14,4 @@
       "description": "API key của bạn để sử dụng OpenAI API"
     }
   },
-  "scripts": {
-    "postdeploy": "php setup.php"
-  }
 }
