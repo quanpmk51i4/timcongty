@@ -1,0 +1,20 @@
+{
+  "name": "Tìm Công ty",
+  "description": "Tìm Công ty",
+  "repository": "https://github.com/quanpmk51i4/timcongty/",
+  "keywords": ["heroku", "php"],
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "API key của bạn để sử dụng OpenAI API"
+    }
+  },
+  "scripts": {
+    "postdeploy": "php setup.php"
+  }
+}
