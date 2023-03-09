@@ -7,7 +7,7 @@ $company_name = $_GET['company_name'];
 $api_key = getenv("OPENAI_API_KEY");
 
 // Thực hiện yêu cầu API để tìm kiếm thông tin công ty
-$url = "https://api.openai.com/v1/engines/davinci-codex/search";
+$url = "https://api.openai.com/v1/models";
 $data = array(
     "documents" => array("List of companies and their descriptions"),
     "query" => $company_name,
