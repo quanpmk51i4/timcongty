@@ -13,5 +13,5 @@
     "OPENAI_API_KEY": {
       "description": "API key của bạn để sử dụng OpenAI API"
     }
-  },
+  }
 }
